@@ -11,11 +11,12 @@ To write a program to predict daily temperature , PM2.5 pollution level and Ener
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+```
+1.Load the weather dataset and preprocess missing values using mean replacement.
+2.Split the dataset into training and testing data for prediction.
+3.Train the Decision Tree Regressor model and predict output values.
+4.Evaluate the model using RMSE, R² Score, and accuracy percentage.
+```
 ## Program:
 ```
 /*
@@ -114,6 +115,7 @@ print("R2 Score:", r2_energy)
 ```
 
 ## Output:
+<img width="312" height="282" alt="image" src="https://github.com/user-attachments/assets/994ae6ed-8c3f-45d4-a77a-51d24e7e8e69" />
 
 
 ## Result:
